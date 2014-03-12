@@ -8,8 +8,6 @@ rild.libargs=-d /dev/smd0
 ro.telephony.ril_class=SamsungRIL
 ro.telephony.ril.v3=datacall,icccardstatus,facilitylock
 ro.telephony.call_ring.multiple=false
-ro.ril.hsxpa=2
-ro.ril.gprsclass=12
 
 ## Wi-Fi interface
 wifi.interface=wlan0
@@ -29,23 +27,20 @@ ro.max.fling_velocity=4000
 ro.bq.gpu_to_cpu_unsupported=1
 debug.sf.hw=1
 debug.gr.numframebuffers=3
+debug.egl.recordable.rgba8888=1
 debug.composition.type=gpu
 
 ## Low Power Audio
 lpa.decode=true
-audio.decoder_override_check=true
-use.non-omx.mp3.decoder=true
-use.non-omx.aac.decoder=true
 
 ## Memory
 sys.mem.max_hidden_apps=8
 ro.config.low_ram=false
 
-## Webkit
-persist.webview.provider=classic
-
 ## Qualcomm
 ro.vendor.extension_library=/system/lib/libqc-opt.so
+dev.pm.dyn_sample_period=700000
+dev.pm.dyn_samplingrate=1
 com.qc.hardware=true
 
 ## FM
@@ -66,6 +61,9 @@ dalvik.vm.checkjni=0
 dalvik.vm.dexopt-data-only=1
 dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
 dalvik.vm.execution-mode=int:jit
+
+## CWM
+ro.cwm.enable_key_repeat=true
 
 ## Camcorder
 debug.camcorder.disablemeta=1
