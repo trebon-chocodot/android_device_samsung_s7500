@@ -16,7 +16,11 @@ wifi.interface=wlan0
 wifi.supplicant_scan_interval=180
 
 ## Bluetooth
+ro.bluetooth.remote.autoconnect=true
+ro.bluetooth.request.master=true
 ro.bt.bdaddr_path=/data/misc/bluedroid/bdaddr
+ro.qualcomm.bluetooth.dun=true
+ro.qualcomm.bluetooth.ftp=true
 
 ## Display, graphics
 ro.sf.lcd_density=150
@@ -25,7 +29,7 @@ ro.max.fling_velocity=4000
 ro.bq.gpu_to_cpu_unsupported=1
 debug.sf.hw=1
 debug.gr.numframebuffers=3
-debug.composition.type=dyn
+debug.composition.type=gpu
 
 ## Low Power Audio
 lpa.decode=true
@@ -35,7 +39,7 @@ use.non-omx.aac.decoder=true
 
 ## Memory
 sys.mem.max_hidden_apps=8
-ro.config.low_ram=true
+ro.config.low_ram=false
 
 ## Webkit
 persist.webview.provider=classic
@@ -50,12 +54,18 @@ ro.fm.transmitter=false
 ro.fm.mulinst.recording.support=false
 
 ## USB, storage
-persist.sys.usb.config=mtp,adb
+persist.sys.usb.config=mass_storage,adb
+persist.service.adb.enable=1
+persist.sys.vold.switchexternal=0
+ro.vold.switchablepair=/storage/sdcard0,/storage/sdcard1
 ro.vold.umsdirtyratio=50
 
 ## Dalvik
+dalvik.vm.debug.alloc=0
+dalvik.vm.checkjni=0
 dalvik.vm.dexopt-data-only=1
-dalvik.vm.jit.codecachesize=0
+dalvik.vm.dexopt-flags=v=a,o=v,m=y,u=y
+dalvik.vm.execution-mode=int:jit
 
 ## Camcorder
 debug.camcorder.disablemeta=1
