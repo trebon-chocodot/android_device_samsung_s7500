@@ -32,6 +32,9 @@ debug.composition.type=gpu
 
 ## Low Power Audio
 lpa.decode=true
+audio.decoder_override_check=true
+use.non-omx.mp3.decoder=true
+use.non-omx.aac.decoder=true
 
 ## Memory
 sys.mem.max_hidden_apps=8
