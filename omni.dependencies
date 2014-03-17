@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "Giugiu19",
+    "repository": "android_device_samsung_msm7x27a-common",
+    "target_path": "device/samsung/msm7x27a-common",
+    "revision": "omni_4.4"
+  },
+  {
+    "remote": "Giugiu19",
+    "repository": "android_device_samsung_s7500",
+    "target_path": "device/samsung/trebon",
+    "revision": "omni_4.4"
+  },
+  {
+    "remote": "Giugiu19",
+    "repository": "proprietary_vendor_samsung_msm7x27a",
+    "target_path": "vendor/samsung",
+    "revision": "cm-10.2"
+  },
+  {
+    "remote": "Giugiu19",
+    "repository": "Android_SpeedKernel",
+    "target_path": "kernel/samsung/msm7x27a-common",
+    "revision": "master"
+  }
+]
