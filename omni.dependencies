@@ -21,6 +21,6 @@
     "remote": "Giugiu19",
     "repository": "Android_SpeedKernel",
     "target_path": "kernel/samsung/msm7x27a-common",
-    "revision": "master"
+    "revision": "cm-11"
   }
 ]
