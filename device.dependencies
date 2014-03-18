@@ -1,0 +1,24 @@
+[
+ {
+   "repository": "Android-SpeedKernel-3.0.101",
+   "target_path": "kernel/samsung/msm7x27a",
+   "revision": "cm-11"
+ }, {
+   "repository": "android_device_samsung_msm7x27a-common",
+   "target_path": "device/samsung/msm7x27a-common"
+ }, {
+   "repository": "proprietary_vendor_samsung_msm7x27a",
+   "target_path": "vendor/samsung"
+ }, {
+   "repository": "android_hardware_atheros_wlan",
+   "target_path": "hardware/atheros/wlan",
+   "revision": "cm-11.0"
+ }, {
+   "repository": "android_hardware_samsung",
+   "target_path": "hardware/samsung",
+   "remote": "omnirom"
+ }, {
+   "repository": "android_hardware_qcom_display-legacy",
+   "target_path": "hardware/qcom/display-legacy"
+ }
+]

@@ -1,10 +1,10 @@
-# Copyright (C) 2013 OmniROM Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-# http://www.apache.org/licenses/LICENSE-2.0
+#      http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -21,10 +21,10 @@ include device/samsung/msm7x27a-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := trebon
 
 ## Kernel
-TARGET_KERNEL_CONFIG := trebon_defconfig
+TARGET_KERNEL_CONFIG := omnirom/trebon_defconfig
 
 ## Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/trebon/bluetooth
 
 ## OTA assert
-TARGET_OTA_ASSERT_DEVICE := trebon,GT-S7500
+TARGET_OTA_ASSERT_DEVICE := jena,trebon,GT-S6500,GT-S7500
