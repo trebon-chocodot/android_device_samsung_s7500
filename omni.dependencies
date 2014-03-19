@@ -7,7 +7,7 @@
   },
   {
     "remote": "gh",
-    "repository": "Guigui19/proprietary_vendor_samsung_msm7x27a",
+    "repository": "trebon-chocodot/proprietary_vendor_samsung_msm7x27a",
     "target_path": "vendor/samsung",
     "revision": "cm-10.2"
   },
