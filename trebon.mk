@@ -15,9 +15,13 @@
 DEVICE_PACKAGE_OVERLAYS += device/samsung/trebon/overlay
 
 ## Build recovery?
-#BUILD_RECOVERY := true
+BUILD_RECOVERY := true
 
 include device/samsung/msm7x27a-common/msm7x27a.mk
+
+## Build torch app
+PRODUCT_PACKAGES += \
+    OmniTorch
 
 ifndef BUILD_RECOVERY
 ## Splash screen
@@ -28,5 +32,7 @@ else
 PRODUCT_COPY_FILES += \
     device/samsung/trebon/rootdir/init-cwm.rle:root/GT-S7500.rle
 endif
+
+ROM_BUILDTYPE := NIGHTLY
 
 $(call inherit-product, vendor/samsung/trebon/blobs.mk)
