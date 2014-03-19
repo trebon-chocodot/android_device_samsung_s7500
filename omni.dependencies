@@ -13,7 +13,7 @@
   },
   {
     "remote": "gh",
-    "repository": "/proprietary_vendor_samsung_msm7x27a",
+    "repository": "Guigui19/proprietary_vendor_samsung_msm7x27a",
     "target_path": "vendor/samsung",
     "revision": "cm-10.2"
   },
