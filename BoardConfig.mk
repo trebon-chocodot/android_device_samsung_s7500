@@ -21,10 +21,10 @@ include device/samsung/msm7x27a-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := trebon
 
 ## Kernel
-TARGET_KERNEL_CONFIG := omnirom/trebon_defconfig
+TARGET_KERNEL_CONFIG := trebon_defconfig
 
 ## Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/trebon/bluetooth
 
 ## OTA assert
-TARGET_OTA_ASSERT_DEVICE := jena,trebon,GT-S6500,GT-S7500
+TARGET_OTA_ASSERT_DEVICE := trebon,GT-S7500
