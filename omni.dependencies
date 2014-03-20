@@ -7,15 +7,15 @@
   },
   {
     "remote": "Giugiu19",
-    "repository": "android_device_samsung_trebon",
+    "repository": "android_device_samsung_s7500",
     "target_path": "device/samsung/trebon",
-    "revision": "android-4.4"
+    "revision": "omni_4.4"
   },
   {
     "remote": "Giugiu19",
     "repository": "proprietary_vendor_samsung_msm7x27a",
     "target_path": "vendor/samsung",
-    "revision": "cm-10.2"
+    "revision": "cm-10.2-old-adreno"
   },
   {
     "remote": "Giugiu19",
@@ -24,4 +24,3 @@
     "revision": cm-11"
   }
 ]
-
