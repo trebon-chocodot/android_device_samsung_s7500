@@ -3,7 +3,7 @@
     "remote": "Giugiu19",
     "repository": "android_device_samsung_msm7x27a-common",
     "target_path": "device/samsung/msm7x27a-common",
-    "revision": "android-4.4"
+    "revision": "omni_4.4"
   },
   {
     "remote": "Giugiu19",
@@ -19,8 +19,8 @@
   },
   {
     "remote": "Giugiu19",
-    "repository": "Android-SpeedKernel-3.0.101",
+    "repository": "Android_SpeedKernel",
     "target_path": "kernel/samsung/msm7x27a-common",
-    "revision": cm-11"
+    "revision": "master"
   }
 ]
