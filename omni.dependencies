@@ -3,7 +3,13 @@
     "remote": "gh",
     "repository": "trebon-chocodot/android_device_samsung_msm7x27a-common",
     "target_path": "device/samsung/msm7x27a-common",
-    "revision": "omni_4.4"
+    "revision": "omni_4.4_stable"
+  },
+  {
+    "remote": "gh",
+    "repository": "trebon-chocodot/Android_SpeedKernel",
+    "target_path": "kernel/samsung/msm7x27a",
+    "revision": "ion"
   },
   {
     "remote": "gh",
