@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "Giugiu19/android_device_samsung_msm7x27a-common",
+    "repository": "trebon-chocodot/android_device_samsung_msm7x27a-common",
     "target_path": "device/samsung/msm7x27a-common",
     "revision": "omni_4.4_stable"
   },
