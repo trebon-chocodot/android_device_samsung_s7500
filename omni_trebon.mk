@@ -22,7 +22,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/samsung/trebon/trebon.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := Chocodot_trebon
+PRODUCT_NAME := omni_trebon
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-S7500
