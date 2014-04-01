@@ -1,18 +1,18 @@
 [
   {
-    "remote": "gh",
+    "remote": "github",
     "repository": "Giugiu19/android_device_samsung_msm7x27a-common",
     "target_path": "device/samsung/msm7x27a-common",
     "revision": "omni_4.4_stable"
   },
   {
-    "remote": "gh",
+    "remote": "github",
     "repository": "trebon-chocodot/Android_SpeedKernel",
     "target_path": "kernel/samsung/msm7x27a",
     "revision": "ion"
   },
   {
-    "remote": "gh",
+    "remote": "github",
     "repository": "trebon-chocodot/proprietary_vendor_samsung_msm7x27a",
     "target_path": "vendor/samsung",
     "revision": "cm-10.2"
