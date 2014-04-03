@@ -3,7 +3,7 @@
     "remote": "Giugiu19",
     "repository": "android_device_samsung_msm7x27a-common",
     "target_path": "device/samsung/msm7x27a-common",
-    "revision": "omni_4.4"
+    "revision": "omni_4.4_stable"
   },
   {
     "remote": "Giugiu19",
@@ -15,12 +15,12 @@
     "remote": "Giugiu19",
     "repository": "proprietary_vendor_samsung_msm7x27a",
     "target_path": "vendor/samsung",
-    "revision": "cm-10.2"
+    "revision": "cm-10.2-old-adreno"
   },
   {
     "remote": "Giugiu19",
     "repository": "Android_SpeedKernel",
     "target_path": "kernel/samsung/msm7x27a",
-    "revision": "ion"
+    "revision": "master"
   }
 ]
