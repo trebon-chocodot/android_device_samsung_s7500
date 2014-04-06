@@ -15,7 +15,7 @@
     "remote": "Giugiu19",
     "repository": "proprietary_vendor_samsung_msm7x27a",
     "target_path": "vendor/samsung",
-    "revision": "cm-10.2-old-adreno"
+    "revision": "cm-10.2"
   },
   {
     "remote": "Giugiu19",
