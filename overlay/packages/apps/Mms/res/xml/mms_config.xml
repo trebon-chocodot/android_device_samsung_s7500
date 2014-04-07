@@ -9,6 +9,6 @@
     <int name="smsToMmsTextThreshold">4</int>
 
     <!-- User-Agent parameter used in MMS http request -->
-    <string name="userAgent">Samsung GT-S6500D (Galaxy Ace Plus)</string>
+    <string name="userAgent">Samsung GT-S7500 (Galaxy Ace Plus)</string>
 
 </mms_config>
