@@ -36,7 +36,7 @@ sys.mem.max_hidden_apps=8
 ro.config.low_ram=true
 
 ## Webkit
-#persist.webview.provider=classic
+persist.webview.provider=classic
 
 ## Qualcomm
 ro.vendor.extension_library=/system/lib/libqc-opt.so
